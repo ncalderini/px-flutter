@@ -1,5 +1,5 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
-// ignore_for_file: deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named
+// ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides
 
 part of 'payment_result.dart';
 
@@ -8,26 +8,31 @@ part of 'payment_result.dart';
 // **************************************************************************
 
 T _$identity<T>(T value) => value;
+
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more informations: https://github.com/rrousselGit/freezed#custom-getters-and-methods');
+
 PaymentResult _$PaymentResultFromJson(Map<String, dynamic> json) {
   return _PaymentResult.fromJson(json);
 }
 
+/// @nodoc
 class _$PaymentResultTearOff {
   const _$PaymentResultTearOff();
 
   _PaymentResult call(String result,
-      [int id,
-      String status,
-      String statusDetail,
-      String paymentMethodId,
-      String paymentTypeId,
-      String issuerId,
-      String installments,
-      bool captured,
-      bool liveMode,
-      String operationType,
-      String transactionAmount,
-      String errorMessage]) {
+      [int? id,
+      String? status,
+      String? statusDetail,
+      String? paymentMethodId,
+      String? paymentTypeId,
+      String? issuerId,
+      String? installments,
+      bool? captured,
+      bool? liveMode,
+      String? operationType,
+      String? transactionAmount,
+      String? errorMessage]) {
     return _PaymentResult(
       result,
       id,
@@ -44,50 +49,59 @@ class _$PaymentResultTearOff {
       errorMessage,
     );
   }
+
+  PaymentResult fromJson(Map<String, Object> json) {
+    return PaymentResult.fromJson(json);
+  }
 }
 
-// ignore: unused_element
+/// @nodoc
 const $PaymentResult = _$PaymentResultTearOff();
 
+/// @nodoc
 mixin _$PaymentResult {
-  String get result;
-  int get id;
-  String get status;
-  String get statusDetail;
-  String get paymentMethodId;
-  String get paymentTypeId;
-  String get issuerId;
-  String get installments;
-  bool get captured;
-  bool get liveMode;
-  String get operationType;
-  String get transactionAmount;
-  String get errorMessage;
+  String get result => throw _privateConstructorUsedError;
+  int? get id => throw _privateConstructorUsedError;
+  String? get status => throw _privateConstructorUsedError;
+  String? get statusDetail => throw _privateConstructorUsedError;
+  String? get paymentMethodId => throw _privateConstructorUsedError;
+  String? get paymentTypeId => throw _privateConstructorUsedError;
+  String? get issuerId => throw _privateConstructorUsedError;
+  String? get installments => throw _privateConstructorUsedError;
+  bool? get captured => throw _privateConstructorUsedError;
+  bool? get liveMode => throw _privateConstructorUsedError;
+  String? get operationType => throw _privateConstructorUsedError;
+  String? get transactionAmount => throw _privateConstructorUsedError;
+  String? get errorMessage => throw _privateConstructorUsedError;
 
-  Map<String, dynamic> toJson();
-  $PaymentResultCopyWith<PaymentResult> get copyWith;
+  Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
+  @JsonKey(ignore: true)
+  $PaymentResultCopyWith<PaymentResult> get copyWith =>
+      throw _privateConstructorUsedError;
 }
 
+/// @nodoc
 abstract class $PaymentResultCopyWith<$Res> {
   factory $PaymentResultCopyWith(
           PaymentResult value, $Res Function(PaymentResult) then) =
       _$PaymentResultCopyWithImpl<$Res>;
   $Res call(
       {String result,
-      int id,
-      String status,
-      String statusDetail,
-      String paymentMethodId,
-      String paymentTypeId,
-      String issuerId,
-      String installments,
-      bool captured,
-      bool liveMode,
-      String operationType,
-      String transactionAmount,
-      String errorMessage});
+      int? id,
+      String? status,
+      String? statusDetail,
+      String? paymentMethodId,
+      String? paymentTypeId,
+      String? issuerId,
+      String? installments,
+      bool? captured,
+      bool? liveMode,
+      String? operationType,
+      String? transactionAmount,
+      String? errorMessage});
 }
 
+/// @nodoc
 class _$PaymentResultCopyWithImpl<$Res>
     implements $PaymentResultCopyWith<$Res> {
   _$PaymentResultCopyWithImpl(this._value, this._then);
@@ -98,52 +112,78 @@ class _$PaymentResultCopyWithImpl<$Res>
 
   @override
   $Res call({
-    Object result = freezed,
-    Object id = freezed,
-    Object status = freezed,
-    Object statusDetail = freezed,
-    Object paymentMethodId = freezed,
-    Object paymentTypeId = freezed,
-    Object issuerId = freezed,
-    Object installments = freezed,
-    Object captured = freezed,
-    Object liveMode = freezed,
-    Object operationType = freezed,
-    Object transactionAmount = freezed,
-    Object errorMessage = freezed,
+    Object? result = freezed,
+    Object? id = freezed,
+    Object? status = freezed,
+    Object? statusDetail = freezed,
+    Object? paymentMethodId = freezed,
+    Object? paymentTypeId = freezed,
+    Object? issuerId = freezed,
+    Object? installments = freezed,
+    Object? captured = freezed,
+    Object? liveMode = freezed,
+    Object? operationType = freezed,
+    Object? transactionAmount = freezed,
+    Object? errorMessage = freezed,
   }) {
     return _then(_value.copyWith(
-      result: result == freezed ? _value.result : result as String,
-      id: id == freezed ? _value.id : id as int,
-      status: status == freezed ? _value.status : status as String,
+      result: result == freezed
+          ? _value.result
+          : result // ignore: cast_nullable_to_non_nullable
+              as String,
+      id: id == freezed
+          ? _value.id
+          : id // ignore: cast_nullable_to_non_nullable
+              as int?,
+      status: status == freezed
+          ? _value.status
+          : status // ignore: cast_nullable_to_non_nullable
+              as String?,
       statusDetail: statusDetail == freezed
           ? _value.statusDetail
-          : statusDetail as String,
+          : statusDetail // ignore: cast_nullable_to_non_nullable
+              as String?,
       paymentMethodId: paymentMethodId == freezed
           ? _value.paymentMethodId
-          : paymentMethodId as String,
+          : paymentMethodId // ignore: cast_nullable_to_non_nullable
+              as String?,
       paymentTypeId: paymentTypeId == freezed
           ? _value.paymentTypeId
-          : paymentTypeId as String,
-      issuerId: issuerId == freezed ? _value.issuerId : issuerId as String,
+          : paymentTypeId // ignore: cast_nullable_to_non_nullable
+              as String?,
+      issuerId: issuerId == freezed
+          ? _value.issuerId
+          : issuerId // ignore: cast_nullable_to_non_nullable
+              as String?,
       installments: installments == freezed
           ? _value.installments
-          : installments as String,
-      captured: captured == freezed ? _value.captured : captured as bool,
-      liveMode: liveMode == freezed ? _value.liveMode : liveMode as bool,
+          : installments // ignore: cast_nullable_to_non_nullable
+              as String?,
+      captured: captured == freezed
+          ? _value.captured
+          : captured // ignore: cast_nullable_to_non_nullable
+              as bool?,
+      liveMode: liveMode == freezed
+          ? _value.liveMode
+          : liveMode // ignore: cast_nullable_to_non_nullable
+              as bool?,
       operationType: operationType == freezed
           ? _value.operationType
-          : operationType as String,
+          : operationType // ignore: cast_nullable_to_non_nullable
+              as String?,
       transactionAmount: transactionAmount == freezed
           ? _value.transactionAmount
-          : transactionAmount as String,
+          : transactionAmount // ignore: cast_nullable_to_non_nullable
+              as String?,
       errorMessage: errorMessage == freezed
           ? _value.errorMessage
-          : errorMessage as String,
+          : errorMessage // ignore: cast_nullable_to_non_nullable
+              as String?,
     ));
   }
 }
 
+/// @nodoc
 abstract class _$PaymentResultCopyWith<$Res>
     implements $PaymentResultCopyWith<$Res> {
   factory _$PaymentResultCopyWith(
@@ -152,20 +192,21 @@ abstract class _$PaymentResultCopyWith<$Res>
   @override
   $Res call(
       {String result,
-      int id,
-      String status,
-      String statusDetail,
-      String paymentMethodId,
-      String paymentTypeId,
-      String issuerId,
-      String installments,
-      bool captured,
-      bool liveMode,
-      String operationType,
-      String transactionAmount,
-      String errorMessage});
+      int? id,
+      String? status,
+      String? statusDetail,
+      String? paymentMethodId,
+      String? paymentTypeId,
+      String? issuerId,
+      String? installments,
+      bool? captured,
+      bool? liveMode,
+      String? operationType,
+      String? transactionAmount,
+      String? errorMessage});
 }
 
+/// @nodoc
 class __$PaymentResultCopyWithImpl<$Res>
     extends _$PaymentResultCopyWithImpl<$Res>
     implements _$PaymentResultCopyWith<$Res> {
@@ -178,43 +219,80 @@ class __$PaymentResultCopyWithImpl<$Res>
 
   @override
   $Res call({
-    Object result = freezed,
-    Object id = freezed,
-    Object status = freezed,
-    Object statusDetail = freezed,
-    Object paymentMethodId = freezed,
-    Object paymentTypeId = freezed,
-    Object issuerId = freezed,
-    Object installments = freezed,
-    Object captured = freezed,
-    Object liveMode = freezed,
-    Object operationType = freezed,
-    Object transactionAmount = freezed,
-    Object errorMessage = freezed,
+    Object? result = freezed,
+    Object? id = freezed,
+    Object? status = freezed,
+    Object? statusDetail = freezed,
+    Object? paymentMethodId = freezed,
+    Object? paymentTypeId = freezed,
+    Object? issuerId = freezed,
+    Object? installments = freezed,
+    Object? captured = freezed,
+    Object? liveMode = freezed,
+    Object? operationType = freezed,
+    Object? transactionAmount = freezed,
+    Object? errorMessage = freezed,
   }) {
     return _then(_PaymentResult(
-      result == freezed ? _value.result : result as String,
-      id == freezed ? _value.id : id as int,
-      status == freezed ? _value.status : status as String,
-      statusDetail == freezed ? _value.statusDetail : statusDetail as String,
+      result == freezed
+          ? _value.result
+          : result // ignore: cast_nullable_to_non_nullable
+              as String,
+      id == freezed
+          ? _value.id
+          : id // ignore: cast_nullable_to_non_nullable
+              as int?,
+      status == freezed
+          ? _value.status
+          : status // ignore: cast_nullable_to_non_nullable
+              as String?,
+      statusDetail == freezed
+          ? _value.statusDetail
+          : statusDetail // ignore: cast_nullable_to_non_nullable
+              as String?,
       paymentMethodId == freezed
           ? _value.paymentMethodId
-          : paymentMethodId as String,
-      paymentTypeId == freezed ? _value.paymentTypeId : paymentTypeId as String,
-      issuerId == freezed ? _value.issuerId : issuerId as String,
-      installments == freezed ? _value.installments : installments as String,
-      captured == freezed ? _value.captured : captured as bool,
-      liveMode == freezed ? _value.liveMode : liveMode as bool,
-      operationType == freezed ? _value.operationType : operationType as String,
+          : paymentMethodId // ignore: cast_nullable_to_non_nullable
+              as String?,
+      paymentTypeId == freezed
+          ? _value.paymentTypeId
+          : paymentTypeId // ignore: cast_nullable_to_non_nullable
+              as String?,
+      issuerId == freezed
+          ? _value.issuerId
+          : issuerId // ignore: cast_nullable_to_non_nullable
+              as String?,
+      installments == freezed
+          ? _value.installments
+          : installments // ignore: cast_nullable_to_non_nullable
+              as String?,
+      captured == freezed
+          ? _value.captured
+          : captured // ignore: cast_nullable_to_non_nullable
+              as bool?,
+      liveMode == freezed
+          ? _value.liveMode
+          : liveMode // ignore: cast_nullable_to_non_nullable
+              as bool?,
+      operationType == freezed
+          ? _value.operationType
+          : operationType // ignore: cast_nullable_to_non_nullable
+              as String?,
       transactionAmount == freezed
           ? _value.transactionAmount
-          : transactionAmount as String,
-      errorMessage == freezed ? _value.errorMessage : errorMessage as String,
+          : transactionAmount // ignore: cast_nullable_to_non_nullable
+              as String?,
+      errorMessage == freezed
+          ? _value.errorMessage
+          : errorMessage // ignore: cast_nullable_to_non_nullable
+              as String?,
     ));
   }
 }
 
 @JsonSerializable()
+
+/// @nodoc
 class _$_PaymentResult implements _PaymentResult {
   const _$_PaymentResult(this.result,
       [this.id,
@@ -228,8 +306,7 @@ class _$_PaymentResult implements _PaymentResult {
       this.liveMode,
       this.operationType,
       this.transactionAmount,
-      this.errorMessage])
-      : assert(result != null);
+      this.errorMessage]);
 
   factory _$_PaymentResult.fromJson(Map<String, dynamic> json) =>
       _$_$_PaymentResultFromJson(json);
@@ -237,29 +314,29 @@ class _$_PaymentResult implements _PaymentResult {
   @override
   final String result;
   @override
-  final int id;
+  final int? id;
   @override
-  final String status;
+  final String? status;
   @override
-  final String statusDetail;
+  final String? statusDetail;
   @override
-  final String paymentMethodId;
+  final String? paymentMethodId;
   @override
-  final String paymentTypeId;
+  final String? paymentTypeId;
   @override
-  final String issuerId;
+  final String? issuerId;
   @override
-  final String installments;
+  final String? installments;
   @override
-  final bool captured;
+  final bool? captured;
   @override
-  final bool liveMode;
+  final bool? liveMode;
   @override
-  final String operationType;
+  final String? operationType;
   @override
-  final String transactionAmount;
+  final String? transactionAmount;
   @override
-  final String errorMessage;
+  final String? errorMessage;
 
   @override
   String toString() {
@@ -325,6 +402,7 @@ class _$_PaymentResult implements _PaymentResult {
       const DeepCollectionEquality().hash(transactionAmount) ^
       const DeepCollectionEquality().hash(errorMessage);
 
+  @JsonKey(ignore: true)
   @override
   _$PaymentResultCopyWith<_PaymentResult> get copyWith =>
       __$PaymentResultCopyWithImpl<_PaymentResult>(this, _$identity);
@@ -337,48 +415,50 @@ class _$_PaymentResult implements _PaymentResult {
 
 abstract class _PaymentResult implements PaymentResult {
   const factory _PaymentResult(String result,
-      [int id,
-      String status,
-      String statusDetail,
-      String paymentMethodId,
-      String paymentTypeId,
-      String issuerId,
-      String installments,
-      bool captured,
-      bool liveMode,
-      String operationType,
-      String transactionAmount,
-      String errorMessage]) = _$_PaymentResult;
+      [int? id,
+      String? status,
+      String? statusDetail,
+      String? paymentMethodId,
+      String? paymentTypeId,
+      String? issuerId,
+      String? installments,
+      bool? captured,
+      bool? liveMode,
+      String? operationType,
+      String? transactionAmount,
+      String? errorMessage]) = _$_PaymentResult;
 
   factory _PaymentResult.fromJson(Map<String, dynamic> json) =
       _$_PaymentResult.fromJson;
 
   @override
-  String get result;
+  String get result => throw _privateConstructorUsedError;
   @override
-  int get id;
+  int? get id => throw _privateConstructorUsedError;
   @override
-  String get status;
+  String? get status => throw _privateConstructorUsedError;
   @override
-  String get statusDetail;
+  String? get statusDetail => throw _privateConstructorUsedError;
   @override
-  String get paymentMethodId;
+  String? get paymentMethodId => throw _privateConstructorUsedError;
   @override
-  String get paymentTypeId;
+  String? get paymentTypeId => throw _privateConstructorUsedError;
   @override
-  String get issuerId;
+  String? get issuerId => throw _privateConstructorUsedError;
   @override
-  String get installments;
+  String? get installments => throw _privateConstructorUsedError;
   @override
-  bool get captured;
+  bool? get captured => throw _privateConstructorUsedError;
   @override
-  bool get liveMode;
+  bool? get liveMode => throw _privateConstructorUsedError;
   @override
-  String get operationType;
+  String? get operationType => throw _privateConstructorUsedError;
   @override
-  String get transactionAmount;
+  String? get transactionAmount => throw _privateConstructorUsedError;
   @override
-  String get errorMessage;
+  String? get errorMessage => throw _privateConstructorUsedError;
   @override
-  _$PaymentResultCopyWith<_PaymentResult> get copyWith;
+  @JsonKey(ignore: true)
+  _$PaymentResultCopyWith<_PaymentResult> get copyWith =>
+      throw _privateConstructorUsedError;
 }
